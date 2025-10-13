@@ -29,7 +29,6 @@ body {
 }
 .cards{
     border-radius: 10px;
-    padding: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
    padding-top: 20px !important;
    
@@ -60,20 +59,15 @@ body {
 
 .icons{
     color: #fff;
-    border-radius: 50% ;
-    
-   
+   background-color: #6B7280;
     font-size: xx-large;
     margin-left: 25px ;
+    width: 50px;
+  height: 50px;
+  align-items: center !important;
 }
-
-
-
-.icons.icons:nth(2){
-background-color: green;
-}
-.icons:nth-child(3){
-background-color: rgb(84, 84, 221);
+.icons i{
+  font-size: large;
 }
 
 .charts{
@@ -94,6 +88,11 @@ margin-top: 40px !important;
 .card{
   border: 1px solid var(--border) !important;
   border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+   transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .points{
@@ -103,4 +102,14 @@ margin-top: 40px !important;
 }
 .card p{
   font-size: small !important;
+}
+
+.one{
+  background-color: #2B7FFF;
+}
+.two{
+  background: #00C951;
+}
+.three{
+  background: #AD46FF;
 }
