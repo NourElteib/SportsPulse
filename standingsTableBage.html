@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premier League Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      ⚽ SportsPulse <span>Live Sports News</span>
+    </div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#" class="active">Standings</a>
+      <a href="#">Stats</a>
+      <a href="#">Matches</a>
+    </div>
+  </nav>
+
+  <main>
+    <h2>Premier League Table</h2>
+    <p class="subtitle"><span id="season"></span> Seasons Standings</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Logo</th>
+          <th>Team</th>
+          <th>Played</th>
+          <th>Won</th>
+          <th>Drawn</th>
+          <th>Lost</th>
+          <th>GF</th>
+          <th>GA</th>
+          <th>GD</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+    </table>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
